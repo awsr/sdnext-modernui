@@ -1,22 +1,27 @@
-/* Author: QuantumSoul */
+@layer base, theme;
+@import "../style/main.css" layer(base);
 
-:root {
-    --sd-main-accent-color:#008772;
-    --sd-label-color:white;
-    --sd-input-text-color:white;
-    --sd-input-placeholder-text-color:gray;
-    --sd-input-hover-text-color:white;
+@layer theme {
+    /* Author: QuantumSoul */
 
-    --sd-main-background-color:black;
-    --sd-input-background-color:rgba(255,255,255, 0.15);
-    --sd-input-border-color:rgba(255,255,255, 0.15);
-    --sd-panel-background-color:black;
-    --sd-panel-border-color:rgba(255,255,255, 0.15);
-    --sd-group-background-color:transparent;
-    --sd-group-border-color:transparent;
+    :root {
+        --sd-main-accent-color:#008772;
+        --sd-label-color:white;
+        --sd-input-text-color:white;
+        --sd-input-placeholder-text-color:gray;
+        --sd-input-hover-text-color:white;
 
-    --sd-border-size: 1px;
-    --sd-input-border-size: 1px;
+        --sd-main-background-color:black;
+        --sd-input-background-color:rgba(255,255,255, 0.15);
+        --sd-input-border-color:rgba(255,255,255, 0.15);
+        --sd-panel-background-color:black;
+        --sd-panel-border-color:rgba(255,255,255, 0.15);
+        --sd-group-background-color:transparent;
+        --sd-group-border-color:transparent;
 
-    color-scheme: dark;
+        --sd-border-size: 1px;
+        --sd-input-border-size: 1px;
+
+        color-scheme: dark;
+    }
 }

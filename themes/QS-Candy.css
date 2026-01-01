@@ -1,30 +1,35 @@
-/* Author: QuantumSoul */
+@layer base, theme;
+@import "../style/main.css" layer(base);
 
-:root {
-    --sd-main-accent-color:#ccffc1;
-    --sd-label-color:white;
-    --sd-input-text-color:white;
-    --sd-input-placeholder-text-color:white;
-    --sd-input-hover-text-color:#c66295ff;
+@layer theme {
+    /* Author: QuantumSoul */
 
-    --sd-main-background-color:#c66295ff;
-    --sd-input-background-color:#c6629590;
-    --sd-input-border-color:transparent;
-    --sd-panel-background-color:#f09ac6aa;
-    --sd-panel-border-color:transparent;
-    --sd-group-background-color:transparent;
-    --sd-group-border-color:transparent;
+    :root {
+        --sd-main-accent-color:#ccffc1;
+        --sd-label-color:white;
+        --sd-input-text-color:white;
+        --sd-input-placeholder-text-color:white;
+        --sd-input-hover-text-color:#c66295ff;
 
-    --sd-button-normal-color: transparent;
-    --sd-button-normal-text-color: white;
-    --sd-button-hover-color: #B4E4FF;
+        --sd-main-background-color:#c66295ff;
+        --sd-input-background-color:#c6629590;
+        --sd-input-border-color:transparent;
+        --sd-panel-background-color:#f09ac6aa;
+        --sd-panel-border-color:transparent;
+        --sd-group-background-color:transparent;
+        --sd-group-border-color:transparent;
 
-    --sd-gap-size: 3px;
-}
+        --sd-button-normal-color: transparent;
+        --sd-button-normal-text-color: white;
+        --sd-button-hover-color: #B4E4FF;
 
-.group-row > * , .group-col > * , div, button {
-    border-radius: 5px !important;
-}
-.group-row, .group-col {
-    gap: 4px !important;
+        --sd-gap-size: 3px;
+    }
+
+    .group-row > * , .group-col > * , div, button {
+        border-radius: 5px !important;
+    }
+    .group-row, .group-col {
+        gap: 4px !important;
+    }
 }
