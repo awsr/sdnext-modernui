@@ -14,7 +14,7 @@
 }
 
 .icon-sdnext {
-  mask-image: url(.../html/favicon.svg);
+  mask-image: url(../html/favicon.svg);
 }
 
 * {
